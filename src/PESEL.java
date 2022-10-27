@@ -1,4 +1,6 @@
 import java.time.LocalDate;
+import java.time.Month;
+import java.time.MonthDay;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
@@ -24,14 +26,14 @@ public class PESEL {
         } else {
             System.out.println("Gender: man");
         }
-        LocalDate localDate1 = LocalDate.now();
+        //LocalDate. localDate1 = LocalDate.now();
 
-        System.out.println("When is your next birthday? (format YYY-MM-DD");
-        String birthday = console.next();
+       // int dayBirthday = pesel.charAt(4) & pesel.charAt(5);
+       // System.out.println(dayBirthday);
 
-        LocalDate birthdayDate = birthday;
+        LocalDate localDate = LocalDate.ofYearDay(22, 300);
+        LocalDate birthdayDate = LocalDate.ofYearDay()
 
-        ChronoUnit.DAYS.between(localDate1, birthdayDate);
 
 
     }
