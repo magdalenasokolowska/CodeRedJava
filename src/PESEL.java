@@ -31,8 +31,8 @@ public class PESEL {
        // int dayBirthday = pesel.charAt(4) & pesel.charAt(5);
        // System.out.println(dayBirthday);
 
-        LocalDate localDate = LocalDate.ofYearDay(22, 300);
-        LocalDate birthdayDate = LocalDate.ofYearDay()
+       // LocalDate localDate = LocalDate.ofYearDay(22, 300);
+        //LocalDate birthdayDate = LocalDate.ofYearDay();
 
 
 
