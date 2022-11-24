@@ -21,7 +21,7 @@ public class PalindromZadanie {
 
         private static boolean isPalindrome(String text) {
             var len = text.length();
-            for (int i =0; i <= len / 2; i++){
+            for (int i =0; i <= len / 2; i++){ //pozycja litery
                 if (text.charAt(i) != text.charAt(len - i - 1)) {
                     return false;
                 }
@@ -29,4 +29,7 @@ public class PalindromZadanie {
             return true;
         }
     }
+/*
+break - wychodizmy zupelnie z petli
 
+ */
