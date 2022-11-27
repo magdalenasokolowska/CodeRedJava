@@ -31,5 +31,5 @@ public class PalindromZadanie {
     }
 /*
 break - wychodizmy zupelnie z petli
-
+continue - przejdz do nastepnej nie sprawdzajac kodu
  */
